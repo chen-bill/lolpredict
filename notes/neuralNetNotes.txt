@@ -1,0 +1,53 @@
+Things to consider
+How to Calculate Win rate for champion
+    (how to factor in number of games played?)
+    -(individualChampWinRate + averageChampWinRateAtThatRole + individualWinRate + individualPositionWinRate)/4
+    OR
+    -(individualChampWinRate + averageChampWinRate)/3
+    -win rate vs lane opponent?
+**-objectives? average tower kills, total tower damage, total baron kills etcetc
+
+
+Input:
+o - bTopWinRate
+o - bMidWinRate
+    - mid cs, mid ban rate, mid win rate vs other mid
+o - bJungleWinRate
+o - bADCWinRate
+o - bSupportWinRate
+o - bTotalMagicDamageDealt
+o - bTotalPhysicalDamageDealt
+o - bTotalAllyJungleCS
+o - bTotalEnemyJungleCS
+o - bTotalDamageTaken
+o - bBanRateBonus   #sum of all the ban rates of the champion, way to consider meta
+o - bSumExperience
+o - bSumTotalKills
+o - bSumTotalDeaths
+o - bSumTotalAssists
+o - bLargestKIllingSp
+o - bSumTotalMinionKills
+o - bSumGoldEarned
+o - totalSummonersInSeries
+
+
+Input:
+o - pTopWinRate
+o - pMidWinRate
+o - pJungleWinRate
+o - pADCWinRate
+o - pSupportWinRate
+o - pTotalMagicDamageDealt
+o - pTotalPhysicalDamageDealt
+o - pTotalAllyJungleCS
+o - pTotalEnemyJungleCS
+o - pTotalDamageTaken
+o - pBanRateBonus   #sum of all the ban rates of the champion, way to consider meta
+o - pSumExperience
+o - pSumTotalKills
+o - pSumTotalDeaths
+o - pSumTotalAssists
+o - pLargestKIllingSp
+o - pSumTotalMinionKills
+o - pSumGoldEarned
+
